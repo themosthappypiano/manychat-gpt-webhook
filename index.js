@@ -24,7 +24,8 @@ app.post('/webhook', async (req, res) => {
       {
         headers: {
           'Authorization': `Bearer ${OPENAI_API_KEY}`,
-          'OpenAI-Beta': 'assistants=v2'
+          'OpenAI-Beta': 'assistants=v2',
+          'Content-Type': 'application/json'
         }
       }
     );
@@ -37,7 +38,8 @@ app.post('/webhook', async (req, res) => {
       {
         headers: {
           'Authorization': `Bearer ${OPENAI_API_KEY}`,
-          'OpenAI-Beta': 'assistants=v2'
+          'OpenAI-Beta': 'assistants=v2',
+          'Content-Type': 'application/json'
         }
       }
     );
@@ -49,7 +51,8 @@ app.post('/webhook', async (req, res) => {
       {
         headers: {
           'Authorization': `Bearer ${OPENAI_API_KEY}`,
-          'OpenAI-Beta': 'assistants=v2'
+          'OpenAI-Beta': 'assistants=v2',
+          'Content-Type': 'application/json'
         }
       }
     );
@@ -65,7 +68,8 @@ app.post('/webhook', async (req, res) => {
         {
           headers: {
             'Authorization': `Bearer ${OPENAI_API_KEY}`,
-            'OpenAI-Beta': 'assistants=v2'
+            'OpenAI-Beta': 'assistants=v2',
+            'Content-Type': 'application/json'
           }
         }
       );
@@ -78,7 +82,8 @@ app.post('/webhook', async (req, res) => {
       {
         headers: {
           'Authorization': `Bearer ${OPENAI_API_KEY}`,
-          'OpenAI-Beta': 'assistants=v2'
+          'OpenAI-Beta': 'assistants=v2',
+          'Content-Type': 'application/json'
         }
       }
     );
